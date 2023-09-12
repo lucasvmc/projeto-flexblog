@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* CORES
+azul header: 122ab2
+azul nav: 2c70ff
+azul hr: 2c70ff
+purple: ae81ff
+pink: f9265e
+blue: 66d9eb
+azul newsletter: 2c70ff
+azul footer: 2c70ff
+azul footer txt: 122ab2
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: black;
+}
