@@ -14,34 +14,64 @@ azul footer: 2c70ff
 azul footer txt: 122ab2
 */
 
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
+    background-color: #d2d8ff;
     font-family: "Nunito", Helvetica, Arial, sans-serif;
-    color: black;
+    margin: auto;
     width: 320px;
     height: 568px;
+}
+
+.container{
+    max-width: 320px;
+    margin: 0px;
+    display: flex;
+    border: none;
+}
+
+.item{
+    flex: 1;
+    text-align: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+main{
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 100%vw;
     margin: auto;
 }
 
 header{
     background-color: #122ab2;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.4em;
+    padding: 3px;
+}
+
+nav > h2{
+    font-size: 1.3em;
+    padding-left: 10px;
 }
 
 nav, a{
     background-color: #2c70ff;
     color: white;
     text-decoration: none;
-}
-
-nav > a:hover{
-    text-decoration: underline;
-    color: white;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top:3px;
 }
 
 hr{
