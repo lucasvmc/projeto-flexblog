@@ -1,7 +1,104 @@
 @charset "UTF-8";
 
+/* CORES
+azul header: 122ab2
+azul nav: 2c70ff
+azul hr: 2c70ff
+purple: ae81ff
+pink: f9265e
+blue: 66d9eb
+azul newsletter: 2c70ff
+azul footer: 2c70ff
+azul footer txt: 122ab2
+*/
+
+*{
+    box-sizing: border-box;
+}
+
 body, h1, h2, p, li, a{
     margin: 0px;
     padding: 0px;
 }
 
+body{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* SUPER INFO */
+
+.superinfo-bg{
+    background-color: #122ab2;
+    color: white;
+}
+
+.superinfo{
+    font-size: 0.7em;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+} 
+
+.superinfo a{
+    color: white;
+}
+
+/* MENU */
+
+.menu-bg{
+    background-color: #2c70ff;
+}
+
+.menu{
+    max-width: 960px;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-logo a{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #122ab2;
+}
+
+/* SOBRE */
